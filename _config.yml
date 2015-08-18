@@ -3,12 +3,15 @@ description: site description
 title: 差不多
 author: Alex
 
+# timezone:
+
 limit_posts: 0
 show_drafts: null
 
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-permalink:     /posts/year-:month-:day-:title.html
+# permalink:     /posts/year-:month-:day-:title.html
+permalink:     /:title.html
 
 gems:
 - jekyll-mentions
