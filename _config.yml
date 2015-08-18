@@ -6,6 +6,8 @@ author: Alex
 limit_posts: 0
 show_drafts: null
 
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
 gems:
 - jekyll-mentions
 - jemoji
