@@ -10,14 +10,12 @@ show_drafts: null
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink:     /posts/year-:month-:day-:title.html
-permalink:     /:title.html
 
 gems:
 - jekyll-mentions
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
-
 
 # https://github.com/jekyll/jekyll/issues/332
 # http://stackoverflow.com/questions/20037266/how-to-use-jekyll-baseurl-in-css-files
