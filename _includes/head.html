@@ -3,6 +3,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
+  <meta property="og:title" content={% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} />
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <!-- <meta property="og:image" content="http://a.36krcnd.com/photo/2691c20a41768dc23e7e26011eb61215.png!feature" />
+  <meta name="weibo: article:create_at" content="2013-09-02 09:35:58 +0800" />
+  <meta name="weibo: article:update_at" content="2013-09-02 11:33:16 +0800" />
+
+  http://segmentfault.com/q/1010000000302816 -->
+
   <!-- <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"> -->
   <!-- <link rel="stylesheet" href="{{ "/css/tufte.css" | prepend: site.baseurl }}"> -->
   <!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"> -->
