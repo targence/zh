@@ -1,4 +1,5 @@
-url: http://targence.github.io/zh
+baseurl: /zh
+url: http://targence.github.io
 description: site description
 title: 差不多
 author: Alex
