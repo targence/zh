@@ -10,7 +10,7 @@ layout: default
       	<hr class="slender">
 
       	<a href="{{ post.url }}"><h4 class="contrast">{{ post.title }}</h4></a>
-      	<span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span>  <br/>
+      	<span class="smaller">{{ post.date | date: "%H:%M:%S, %B %-d, %Y" }}</span>  <br/>
 		<div>{{ post.content }}</div>
 
       </div>
