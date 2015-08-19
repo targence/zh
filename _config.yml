@@ -3,10 +3,13 @@ url: http://targence.github.io
 description: site description
 title: 差不多
 author: Alex
+email: your_email@example.com
 
 limit_posts: 0
 show_drafts: null
+# paginate: 3
 
+markdown: kramdown
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink:     /posts/year-:month-:day-:title.html
