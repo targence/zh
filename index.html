@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="posts">
+    {% for post in paginator.posts %}
+      <div class="post py3">
+        {% if post.type == "note" %}
+          <!-- hide title -->
+        {% else %}
+          <!-- <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a> -->
+          <h3 class="h1 post-title">{{ post.title }}</h3>
+        {% endif %}
+        <!-- <p class="post-meta">{{ post.date | date: "%H:%M ∙ %B %-d ∙ %Y" }}</p> -->
+        <!-- <span class="post-meta">{{ post.date | date: "%H:%M ∙ %B %-d ∙ %Y" }}</span><br> -->
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><span class="post-meta">{{ post.date | date: "§ %H:%M ∙ %B %-d ∙ %Y" }}</span><br></a>
+        <p class="post-content">
+          {{ post.content }}
+        </p>
+        <!-- <div class="center">
+          <small>∙∙∙</small>
+        </div> -->
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- {% include pagination.html %} -->
+</div>

@@ -1,24 +1,68 @@
-baseurl: /zh
-url: http://targence.github.io
-description: site description
-title: 差不多
-author: Alex
-email: your_email@example.com
+# Site settings
+title: "一个俄罗斯工程师在中国"
+# email:       your_email@example.com
+author:      "Alex"
+description: ""
+baseurl:     "/zh"
+url:         "http://targence.github.io"
 
+# Google analytics
+google_analytics:
+
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  false
+show_social_icons:  false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Social icons
+github_username:
+bitbucket_username:
+stackoverflow_id:
+twitter_username:
+google_plus_id:
+linkedin_username:
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: false
+share_text: 'Share this post!'
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:     /posts/:year-:month-:day-:title.html
+paginate:     100
 limit_posts: 0
 show_drafts: null
-# paginate: 3
+sass:
+  compressed: true
 
-markdown: kramdown
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-permalink:     /posts/year-:month-:day-:title.html
 
 gems:
-- jekyll-mentions
-- jemoji
-- jekyll-redirect-from
-- jekyll-sitemap
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
 
-# https://github.com/jekyll/jekyll/issues/332
-# http://stackoverflow.com/questions/20037266/how-to-use-jekyll-baseurl-in-css-files
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"

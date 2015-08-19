@@ -1,6 +1,14 @@
-<!--- Header and nav template site-wide -->
-<header>
-  <nav class="group">
-		<a href="/"><img class="badge" src="https://github.com/targence/zh/blob/gh-pages/images/header_image.png?raw=true"></a>
-	</nav>
+<header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="{{ site.url }}{{ site.baseurl }}/" class="site-title"><img src="/zh/images/avatar.png" class="avatar"/>  {{ site.title }}</a>
+      <nav class="site-nav">
+        {% include navigation.html %}
+      </nav>
+      <div class="clearfix"></div>
+      {% if site.show_social_icons %}
+        {% include social_links.html %}
+      {% endif %}
+    </div>
+  </div>
 </header>
