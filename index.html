@@ -10,8 +10,8 @@ layout: default
         {% if post.type == "note" %}
           <!-- hide title -->
         {% else %}
-          <!-- <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a> -->
-          <h3 class="h1 post-title">{{ post.title }}</h3>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+          <!-- <h3 class="h1 post-title">{{ post.title }}</h3> -->
         {% endif %}
         <!-- <p class="post-meta">{{ post.date | date: "%H:%M ∙ %B %-d ∙ %Y" }}</p> -->
         <!-- <span class="post-meta">{{ post.date | date: "%H:%M ∙ %B %-d ∙ %Y" }}</span><br> -->

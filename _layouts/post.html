@@ -10,7 +10,8 @@ layout: default
 <!-- using chinese comma in date -->
 
 <div class="post-header mb2">
-  <h1>{{ page.title }}</h1>
+  <a href="{{ page.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ page.title }}</h3></a>
+  <!-- <h1>{{ page.title }}</h1> -->
   <a href="{{ page.url | prepend: site.baseurl }}" class="post-link"><span class="post-meta">{{ page.date | date: "§ %H:%M ∙ %B %-d ∙ %Y" }}</span><br></a>
   <!-- <span class="post-meta">{{ page.date | date: "%H:%M ∙ %B %-d ∙ %Y" }}</span><br> -->
   {% if page.update_date %}
