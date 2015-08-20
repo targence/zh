@@ -1,5 +1,5 @@
 
-.posts .post {
+.posts {
   margin: 0;
 }
 
@@ -33,24 +33,29 @@
 }
 
 .post-header {
-  margin-top: 0.50rem;
+  margin-top: 0.0rem;
+  margin-bottom: 0.3rem;
+}
+
+.post-content {
+  margin-bottom: 0.3rem;
 }
 
 .avatar {
-  margin: -0.45rem 0;
-  width: 40px;
+  margin: -1.05rem 0;
+  width: 2.4rem;
   // border-radius: 50%;
 }
-
 
 .meta,
 .post-meta {
   width: auto;
   font-weight: 300;
   margin: 0;
-  padding: .25em 0;
+  padding: 0em 0;
   color: #7a7a7a;
   font-style: italic;
+  font-size: 65%;
 }
 
 .related-post-title {

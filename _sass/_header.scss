@@ -1,6 +1,6 @@
 .site-header {
   padding-top: $space-1;
-  padding-bottom: $space-2;
+  padding-bottom: $space-1;
 }
 
 .site-header a {
@@ -13,6 +13,10 @@
   font-size: $h2;
 }
 
+.site-subtitle  {
+  margin-left: 2.9rem;
+  margin-top: -0.3rem;
+}
 .site-nav {
   margin-top: $space-2;
 }
@@ -41,7 +45,7 @@
 }
 
 .site-header {
-  text-align: center;
+  // text-align: center;
 }
 
 .site-header .site-nav {

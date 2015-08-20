@@ -1,8 +1,8 @@
 # Site settings
-title: "一个俄罗斯工程师在中国"
+title: "俄工程师在中国"
 # email:       your_email@example.com
 author:      "Alex"
-description: ""
+description: "俄罗斯互联网行业"
 baseurl:     "/zh"
 url:         "http://targence.github.io"
 

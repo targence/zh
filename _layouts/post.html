@@ -10,8 +10,13 @@ layout: default
 <!-- using chinese comma in date -->
 
 <div class="post-header mb2">
-  <a href="{{ page.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ page.title }}</h3></a>
-  <!-- <h1>{{ page.title }}</h1> -->
+
+  {% if page.type == "note" %}
+    <!-- hide title -->
+  {% else %}
+    <a href="{{ page.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ page.title }}</h3></a>
+  {% endif %}
+
   <a href="{{ page.url | prepend: site.baseurl }}" class="post-link"><span class="post-meta">{{ page.date | date: "§ %H:%M ∙ %B %-d ∙ %Y" }}</span><br></a>
   <!-- <span class="post-meta">{{ page.date | date: "%H:%M ∙ %B %-d ∙ %Y" }}</span><br> -->
   {% if page.update_date %}
