@@ -3,7 +3,7 @@ title: "俄工程师在中国"
 # email:       your_email@example.com
 author:      "Alex"
 description: "俄罗斯互联网行业"
-baseurl:     "/zh"
+baseurl:     ""
 url:         "http://targence.github.io"
 
 # Google analytics
