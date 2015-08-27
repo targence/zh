@@ -1,13 +1,12 @@
 # Site settings
 title: "俄工程师在中国"
-# email:       your_email@example.com
-author:      "Alex"
+email:       3177192908@qq.com
+author:      "Alexey Tsverov"
 description: "俄罗斯互联网行业"
 baseurl:     ""
 url:         "http://zh.targence.com"
 
-# Google analytics
-google_analytics:
+# baidu_analyze: 3908cbb144cf558ba6a823230d653fc22
 
 # Optional features
 animated:           false
