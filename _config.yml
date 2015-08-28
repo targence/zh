@@ -6,7 +6,7 @@ description: "俄罗斯互联网行业"
 baseurl:     ""
 url:         "http://zh.targence.com"
 
-# baidu_analyze: 3908cbb144cf558ba6a823230d653fc22
+# baidu_analyze: 3908cbb144cf558ba6a823230d653fc22 
 
 # Optional features
 animated:           false
